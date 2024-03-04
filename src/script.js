@@ -14,6 +14,7 @@ function validarForm(event) {
             firstName.classList.add('invalido')
             firstName.setCustomValidity('First Name cannot be empty')
             firstName.nextElementSibling.innerText = firstName.validationMessage
+            firstName.placeholder = ''
         } else {
             firstName.classList.remove('invalido')
             firstName.setCustomValidity('')
@@ -24,6 +25,7 @@ function validarForm(event) {
             lastName.classList.add('invalido')
             lastName.setCustomValidity('Last Name cannot be empty')
             lastName.nextElementSibling.innerText = lastName.validationMessage
+            lastName.placeholder = ''
         } else {
             lastName.classList.remove('invalido')
             lastName.setCustomValidity('')
@@ -45,6 +47,7 @@ function validarForm(event) {
             password.classList.add('invalido');
             password.setCustomValidity('Password cannot be empty')
             password.nextElementSibling.innerText = password.validationMessage
+            password.placeholder = ''
         } else {
             password.classList.remove('invalido')
             password.setCustomValidity('')
