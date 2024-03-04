@@ -16,6 +16,9 @@ module.exports = {
         'bg-mobile': "url('../images/bg-intro-mobile.png')",
         'bg-desktop': "url('../images/bg-intro-desktop.png')",
       },
+      boxShadow: {
+        '3xl': '0 7px 0 rgba(0, 0, 0, 0.15)',
+      }
     },
   },
   plugins: [],
