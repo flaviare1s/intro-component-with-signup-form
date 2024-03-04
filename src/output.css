@@ -600,6 +600,10 @@ video {
   gap: 1rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -675,6 +679,10 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .font-Poppins {
   font-family: Poppins, sans-serif;
 }
@@ -726,6 +734,10 @@ video {
   text-transform: uppercase;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-9 {
   line-height: 2.25rem;
 }
@@ -774,6 +786,10 @@ video {
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .placeholder-dark::-moz-placeholder {
