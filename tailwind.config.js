@@ -12,6 +12,10 @@ module.exports = {
         'roxo': '#5E54A4',
         'dark': '#3D3B48',
       },
+      backgroundImage: {
+        'bg-mobile': "url('../images/bg-intro-mobile.png')",
+        'bg-desktop': "url('../images/bg-intro-desktop.png')",
+      },
     },
   },
   plugins: [],

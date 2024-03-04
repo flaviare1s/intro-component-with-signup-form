@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-bg-mobile {
+  background-image: url('../images/bg-intro-mobile.png');
+}
+
 .text-center {
   text-align: center;
 }
@@ -561,12 +565,13 @@ video {
   font-weight: 700;
 }
 
-.text-rosa {
-  --tw-text-opacity: 1;
-  color: rgb(255 121 121 / var(--tw-text-opacity));
-}
-
 .text-roxo {
   --tw-text-opacity: 1;
   color: rgb(94 84 164 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-bg-desktop {
+    background-image: url('../images/bg-intro-desktop.png');
+  }
 }
