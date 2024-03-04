@@ -783,10 +783,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-body {
-  color: #1f8e5ec8;
-}
-
 .active\:border-dark:active {
   --tw-border-opacity: 1;
   border-color: rgb(61 59 72 / var(--tw-border-opacity));
