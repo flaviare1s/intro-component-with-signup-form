@@ -1,4 +1,5 @@
 const form = document.querySelector('#form')
+const email = document.querySelector('#email')
 
 function validarForm(event) {
     const target = event.target
@@ -9,6 +10,7 @@ function validarForm(event) {
         form.email.setCustomValidity('Looks like this is not an email')
         form.password.setCustomValidity('Password cannot be empty')
         target.nextElementSibling.innerText = target.validationMessage
+        email.innerText = 'email@example/com'
     }
 
     console.log(target)
