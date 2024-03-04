@@ -544,8 +544,41 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-rosa {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 121 121 / var(--tw-bg-opacity));
+}
+
 .bg-bg-mobile {
   background-image: url('../images/bg-intro-mobile.png');
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .text-center {
@@ -571,6 +604,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:bg-bg-desktop {
     background-image: url('../images/bg-intro-desktop.png');
   }
