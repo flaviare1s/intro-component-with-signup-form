@@ -1,5 +1,6 @@
 const form = document.querySelector('#form')
 const email = document.querySelector('#email')
+const btn = document.querySelector('button')
 
 function validarForm(event) {
     const target = event.target
@@ -12,8 +13,6 @@ function validarForm(event) {
         target.nextElementSibling.innerText = target.validationMessage
         email.value = 'email@example/com'
     }
-
-    console.log(target)
 }
 
 form.addEventListener('change', validarForm)

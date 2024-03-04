@@ -789,6 +789,16 @@ video {
   color: rgb(61 59 72 / var(--tw-placeholder-opacity));
 }
 
+.placeholder-gray-600::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-gray-600::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-placeholder-opacity));
+}
+
 .shadow-2xl {
   --tw-shadow: 0 4px 0 #1f8e5ec8;
   --tw-shadow-colored: 0 4px 0 var(--tw-shadow-color);
