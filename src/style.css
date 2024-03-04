@@ -1,3 +1,6 @@
 .invalido {
     border: 2px solid #FF7979;
+    background-image: url('../images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 30px) center;
 }
