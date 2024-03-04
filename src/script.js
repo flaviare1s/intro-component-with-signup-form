@@ -10,7 +10,7 @@ function validarForm(event) {
         form.email.setCustomValidity('Looks like this is not an email')
         form.password.setCustomValidity('Password cannot be empty')
         target.nextElementSibling.innerText = target.validationMessage
-        email.innerText = 'email@example/com'
+        email.value = 'email@example/com'
     }
 
     console.log(target)
