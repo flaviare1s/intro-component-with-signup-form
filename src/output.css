@@ -789,16 +789,6 @@ video {
   color: rgb(61 59 72 / var(--tw-placeholder-opacity));
 }
 
-.placeholder-gray-600::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-placeholder-opacity));
-}
-
-.placeholder-gray-600::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-placeholder-opacity));
-}
-
 .shadow-2xl {
   --tw-shadow: 0 4px 0 #1f8e5ec8;
   --tw-shadow-colored: 0 4px 0 var(--tw-shadow-color);
@@ -809,6 +799,62 @@ video {
   --tw-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
   --tw-shadow-colored: 0 7px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.placeholder\:opacity-50::-moz-placeholder {
+  opacity: 0.5;
+}
+
+.placeholder\:opacity-50::placeholder {
+  opacity: 0.5;
+}
+
+.placeholder\:opacity-40::-moz-placeholder {
+  opacity: 0.4;
+}
+
+.placeholder\:opacity-40::placeholder {
+  opacity: 0.4;
+}
+
+.placeholder\:opacity-30::-moz-placeholder {
+  opacity: 0.3;
+}
+
+.placeholder\:opacity-30::placeholder {
+  opacity: 0.3;
+}
+
+.placeholder\:opacity-80::-moz-placeholder {
+  opacity: 0.8;
+}
+
+.placeholder\:opacity-80::placeholder {
+  opacity: 0.8;
+}
+
+.placeholder\:opacity-60::-moz-placeholder {
+  opacity: 0.6;
+}
+
+.placeholder\:opacity-60::placeholder {
+  opacity: 0.6;
+}
+
+.placeholder\:opacity-10::-moz-placeholder {
+  opacity: 0.1;
+}
+
+.placeholder\:opacity-10::placeholder {
+  opacity: 0.1;
+}
+
+.placeholder\:opacity-90::-moz-placeholder {
+  opacity: 0.9;
+}
+
+.placeholder\:opacity-90::placeholder {
+  opacity: 0.9;
 }
 
 .active\:border-dark:active {
@@ -823,6 +869,10 @@ video {
 
   .lg\:h-\[60px\] {
     height: 60px;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:w-1\/2 {
